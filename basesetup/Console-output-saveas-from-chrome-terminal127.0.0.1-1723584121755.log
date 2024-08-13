@@ -1,0 +1,26 @@
+main.js:1 Some random string
+'full console'
+'full console'
+typeof 'abc'
+'string'
+typeof 5
+'number'
+typeof(4.5)
+'number'
+cons
+VM10166:1 Uncaught ReferenceError: cons is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM10166:1
+console.in
+undefined
+console.info("New text")
+VM10270:1 New text
+undefined
+console.log("New text")
+VM10293:1 New text
+undefined
+console.log(45+10)
+VM10497:1 55
+undefined
+33+12
+45

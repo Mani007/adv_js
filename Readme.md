@@ -12,4 +12,10 @@ And note down the `IPv4 Address` (probably it will look like 192.168.xx.xx). Thi
 
         http://<IP Address> : <Port>
 
-** For an example, if your server running at **http:// 127.0.0.1:3500** on PC then port number is **3500**.
+** For an example, if your server running at **http:// 127.0.0.1:3500** on PC then port number is **3500**.   
+
+### Console Output saving   
+You can save console commands and output from the chrome dev tools in the form of a text file by the following steps:   
+1. Right-clicking on the console or REPL terminal 
+2. Choosing "save as" from the options
+3. Choose the correct location and save the output file. 
