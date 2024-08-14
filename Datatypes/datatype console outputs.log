@@ -1,0 +1,79 @@
+17:49:42.092 var x = 25
+17:49:42.099 undefined
+17:50:00.276 let a = 10
+17:50:00.286 undefined
+17:50:17.083 const p = 55
+17:50:17.090 undefined
+17:50:25.543 p=34
+17:50:25.552 VM51244:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:2
+(anonymous) @ VM51244:1
+17:50:51.495 p=34 // you cannot change the const once declared
+17:50:51.503 VM51395:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:2
+(anonymous) @ VM51395:1
+20:40:29.915 console.log(5+4*2/4)  // Precendence of *and / is higher than +and- hence prefer brackets for better calculation
+20:40:29.917 VM61851:1 7
+20:40:29.931 undefined
+21:07:23.548 typeof 100
+21:07:23.560 'number'
+21:07:32.651 typeof '100'
+21:07:32.665 'string'
+21:07:39.723 typeof +'100'
+21:07:39.737 'number'
+21:08:01.603 typeof -'100' // typecasted to number from string
+21:08:01.613 'number'
+21:09:31.616 typeof +'abc'
+21:09:31.629 'number'
+21:09:48.491 +'abc'
+21:09:48.506 NaN
+21:09:57.352 +'abc' // Not a number
+21:09:57.362 NaN
+21:10:26.555 +'200abc' // Not a number
+21:10:26.571 NaN
+21:11:05.084 parseInt('200abc')
+21:11:05.099 200
+21:11:18.312 parseInt('200abc') // typecasting sting to number
+21:11:18.323 200
+21:11:23.908 parseInt('200') // typecasting sting to number
+21:11:23.924 200
+21:11:49.187 parseInt('xyz200abc') // typecasting sting to number
+21:11:49.199 NaN
+21:12:00.147 parseInt('xyz200abc') // not possible to typecasting sting to number
+21:12:00.167 NaN
+21:12:27.523 100+''
+21:12:27.541 '100'
+21:13:04.224 typeof (100+'') // number to string another way
+21:13:04.241 'string'
+21:13:30.279 200+'' // number to string another way bu adding empty string
+21:13:30.297 '200'
+21:14:08.588 1.99999999999999999 // to long to store hence roundof 
+21:14:08.606 2
+21:14:35.484 typeof true // boolean type
+21:14:35.504 'boolean'
+21:14:59.848 typeof +true // boolean type to number
+21:14:59.866 'number'
+21:15:05.943  +true // boolean type to number
+21:15:05.964 1
+21:15:17.983  +false // boolean type to number
+21:15:18.004 0
+21:15:27.499 var a;
+21:15:27.513 VM64858:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM64858:1
+21:15:33.615 var abc;
+21:15:33.621 undefined
+21:15:45.284 var abc;// undefined value 
+21:15:45.290 undefined
+21:15:54.967 typeof abc
+21:15:54.991 'undefined'
+21:16:27.503 z= null // declaring null
+21:16:27.514 null
+21:16:37.887 typeof z
+21:16:37.909 'object'
+21:16:55.968 typeof z // null is object a bug since ages in JS
+21:16:55.990 'object'
+21:17:31.779 +null // typecast of null to number
+21:17:31.800 0
+21:17:39.499 typeof +null // typecast of null to number
+21:17:39.522 'number'
