@@ -24,4 +24,9 @@ You can save console commands and output from the chrome dev tools in the form o
  [Chrome console magic 1](https://stackoverflow.com/questions/7627113/save-the-console-log-in-chrome-to-a-file)   
  [Chrome console magic with time stamp](https://stackoverflow.com/questions/12008120/console-log-timestamps-in-chrome)   
  [Terminal console magic with time stamp](https://www.cyberciti.biz/faq/howto-save-ouput-of-linux-unix-command-to-file/)   
- [PERL Terminal console magic with time stamp](https://stackoverflow.com/questions/10838963/bash-append-command-output-and-timestamp-to-file)   
+ [PERL Terminal console magic with time stamp](https://stackoverflow.com/questions/10838963/bash-append-command-output-and-timestamp-to-file)     
+
+
+ ## Datatypes in JS
+ 1. Premitive Data Types - string, number, boolean,undefined,null, bigint, symbol
+ 2. Non Premitive Data Types
