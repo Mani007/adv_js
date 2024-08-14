@@ -10,3 +10,4 @@ console.log(`type of a is ${typeof(a)}`)
 var b=null;
 console.log('value of b is ', b)
 console.log(`type of b is ${typeof(b)}`)
+console.log(`This is a  ${b} as object is a bug in JS since the old times and never corrected`)
