@@ -6,6 +6,7 @@ let citizen = true;
 let some;
 
 userName = 'xyz';   // resetting the variable values with let and var 
+age = 28;  // this is error as we cannot reassign value to const
 
 console.log('userName: ' + userName + ' age: ' + age + ' token: ' + token + ' citizen: ' + citizen);
 console.log('the value of "some" variable is ' + some)
