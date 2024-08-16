@@ -8,6 +8,7 @@ const age = 25;
 
     var token = 'random';
 }
+debugger;
 let citizen = true;
 let some;  // memory allocated as undefined
 
