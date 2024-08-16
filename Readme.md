@@ -39,4 +39,5 @@ JS has two phases of execution of code.
 1. The first phase is memory creation phase
 2. The second phase is code execution phase     
 
-Use console log method to see the output at different parts of your program or use the devTools debugger with breakpoints to see the execution of your program. Chrome devTools debugger is the best debugger you can get. Check the scope of your variables.  Use the network tab for knowing the file execution and loading from the initiator of the files in the browser. 
+Use console log method to see the output at different parts of your program or use the devTools debugger with breakpoints to see the execution of your program. Chrome devTools debugger is the best debugger you can get. Check the scope of your variables.  Use the network tab for knowing the file execution and loading from the initiator of the files in the browser.    
+[More info about temporal dead zone and hoisting in JS](https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/)
