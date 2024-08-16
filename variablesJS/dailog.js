@@ -1,3 +1,5 @@
 // alert("please check") 
-const age = prompt("please enter your age")
-console.log(`The age you enter is ${age}`)
+// const age = prompt("please enter your age")
+// console.log(`The age you enter is ${age}`)
+const age = confirm("Are you older than 18")
+console.log(`the user is older than 18: ${age}`)
