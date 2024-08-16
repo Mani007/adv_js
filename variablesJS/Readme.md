@@ -8,4 +8,11 @@ syntax is let x=20;   // value can be declared later
 **let** cannot be accessed beyond its block. If the value is not defined then its "undefined" in value.    
 3. **const** is another way of declaring ES6 variables in a block scope    
 syntax is const x=20; ***// value has to declared***   
-You cannot change the const once declared. 
+You cannot change the const once declared.    
+
+### Rule for declaring any variable is same as python variable declaration   
+All the valid format of variable declarations
+> let camelCase, camel_case, CamelCase, Camecase, camelcase1, camel$case, _CamelCase, _camelCase     
+
+Some invalid format for variable declarations are 
+> let 1cameCase, camel case, camel#case, #camelcase, etc.
