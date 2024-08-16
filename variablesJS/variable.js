@@ -16,7 +16,7 @@ let userName = 'xyz';   // resetting the variable values with let and var
 //age = 28;  // this is error as we cannot reassign value to const
 //let userName = 'pqr'; // now this is error as its a block scoping problem
 // now the code work fine as we have redeclared the let variable in proper block scope
-token = 'new random token'
+var token = 'new random token'  // redeclareed and reassigned outside the block
 console.log('userName: ' + userName + ' age: ' + age + ' token: ' + token + ' citizen: ' + citizen);
 console.log('the value of "some" variable is ' + some)
 //let some = null;  // we cannot redecalre block scoped varable again 
