@@ -4,7 +4,10 @@ console.log('Variable in JS');
 
 }
 const age = 25;
-var token = 'random';
+{
+
+    var token = 'random';
+}
 let citizen = true;
 let some;  // memory allocated as undefined
 
@@ -13,6 +16,7 @@ let userName = 'xyz';   // resetting the variable values with let and var
 //age = 28;  // this is error as we cannot reassign value to const
 //let userName = 'pqr'; // now this is error as its a block scoping problem
 // now the code work fine as we have redeclared the let variable in proper block scope
+token = 'new random token'
 console.log('userName: ' + userName + ' age: ' + age + ' token: ' + token + ' citizen: ' + citizen);
 console.log('the value of "some" variable is ' + some)
 //let some = null;  // we cannot redecalre block scoped varable again 
