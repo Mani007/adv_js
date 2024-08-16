@@ -33,3 +33,10 @@ You can save console commands and output from the chrome dev tools in the form o
  ## Datatypes in JS
  1. Premitive Data Types - string, number, boolean,undefined,null, bigint, symbol
  2. Non Premitive Data Types
+
+# JS code execution model and Debugging tools from chrome devTools 
+JS has two phases of execution of code.    
+1. The first phase is memory creation phase
+2. The second phase is code execution phase     
+
+Use console log method to see the output at different parts of your program or use the devTools debugger with breakpoints to see the execution of your program. Chrome devTools debugger is the best debugger you can get. Check the scope of your variables.  Use the network tab for knowing the file execution and loading from the initiator of the files in the browser. 
