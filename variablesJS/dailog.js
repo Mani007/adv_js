@@ -1,5 +1,5 @@
-const alertbox = alert("please check")
-console.log(`The result of alert is ${alertbox}`) 
+// const alertbox = alert("please check")
+// console.log(`The result of alert is ${alertbox}`) 
 // const age = prompt("please enter your age")
 // console.log(`The age you enter is ${age}`)
 // const age = confirm("Are you older than 18")
