@@ -17,4 +17,7 @@ Some important note >> is called right shift operator and << is left shift opera
 Although logical operator look simple but behind the scene it can be very challenging for some operations.    
 - ! not operator
 - && and operator   Both true
-- || or operator  One of them true
+- || or operator  One of them true   
+#### Truthy and Falsy values in JS 
+- Fasly value in JS are null, ''(empty string), undefined, 0(zero)  and NaN 
+- except the falsy value every thing in primitive datatype are truthy values
