@@ -21,13 +21,15 @@ console.log("Understanding Logical operator in Details")
 // console.log('Applying boolean typecasting for && special case is boolean(0 && 2) ', Boolean(0 && 2)) // gives out the first falsy results
 // console.log('Applying boolean typecasting for || special case is boolean(1 && 2) ', Boolean(1 || 2)) // gives out the first truthy results
 // console.log('Applying boolean typecasting for || special case is boolean(0 && 2) ', Boolean(0 || 2))
-console.log('Boolean values for truthy and falsy values for NaN is', Boolean(NaN))
-console.log('Boolean values for truthy and falsy values for numbers say 2 is', Boolean(2))
-console.log('Boolean values for truthy and falsy values for null is', Boolean(null))
-console.log('Boolean values for truthy and falsy values for some string "abc"  is ', Boolean('abc'))
-console.log('Boolean values for truthy and falsy values for zero 0 is', Boolean(0))
-console.log('Boolean values for truthy and falsy values for undefined is', Boolean(undefined))
-console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
+// console.log('Boolean values for truthy and falsy values for NaN is', Boolean(NaN))
+// console.log('Boolean values for truthy and falsy values for numbers say 2 is', Boolean(2))
+// console.log('Boolean values for truthy and falsy values for null is', Boolean(null))
+// console.log('Boolean values for truthy and falsy values for some string "abc"  is ', Boolean('abc'))
+// console.log('Boolean values for truthy and falsy values for zero 0 is', Boolean(0))
+// console.log('Boolean values for truthy and falsy values for undefined is', Boolean(undefined))
+// console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
+console.log('Boolean values for truthy and falsy values for "" && "abc" is', Boolean("" && "abc"))
+console.log('Boolean values for truthy and falsy values for "" || "abc" is', Boolean("" || "abc"))
 
 
 
