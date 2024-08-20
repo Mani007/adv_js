@@ -28,8 +28,10 @@ console.log("Understanding Logical operator in Details")
 // console.log('Boolean values for truthy and falsy values for zero 0 is', Boolean(0))
 // console.log('Boolean values for truthy and falsy values for undefined is', Boolean(undefined))
 // console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
-console.log('Real values for truthy and falsy values for "" && "abc" is', "" && "abc")
-console.log('Real values for truthy and falsy values for "" || "abc" is',"" || "abc")
+// 
+// Some really good results - Till what point the logical operators evaluate
+console.log('Real values for truthy and falsy values for "hello" && 2+5 is',"hello" && 2+5)
+console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)
 
 
 
