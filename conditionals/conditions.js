@@ -28,8 +28,8 @@ console.log("Understanding Logical operator in Details")
 // console.log('Boolean values for truthy and falsy values for zero 0 is', Boolean(0))
 // console.log('Boolean values for truthy and falsy values for undefined is', Boolean(undefined))
 // console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
-console.log('Boolean values for truthy and falsy values for "" && "abc" is', Boolean("" && "abc"))
-console.log('Boolean values for truthy and falsy values for "" || "abc" is', Boolean("" || "abc"))
+console.log('Real values for truthy and falsy values for "" && "abc" is', "" && "abc")
+console.log('Real values for truthy and falsy values for "" || "abc" is',"" || "abc")
 
 
 
