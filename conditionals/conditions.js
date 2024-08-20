@@ -17,6 +17,10 @@ console.log('The logical && special case is 1 && 2 ', 1 && 2)
 console.log('The logical && special case is 0 && 2 ', 0 && 2) // gives out the first falsy results
 console.log('The logical || special case is 1 && 2 ', 1 || 2) // gives out the first truthy results
 console.log('The logical || special case is 0 && 2 ', 0 || 2)
+console.log('Applying boolean typecasting for && special case is boolean(1 && 2) ', Boolean(1 && 2))
+console.log('Applying boolean typecasting for && special case is boolean(0 && 2) ', Boolean(0 && 2)) // gives out the first falsy results
+console.log('Applying boolean typecasting for || special case is boolean(1 && 2) ', Boolean(1 || 2)) // gives out the first truthy results
+console.log('Applying boolean typecasting for || special case is boolean(0 && 2) ', Boolean(0 || 2))
 
 
 
