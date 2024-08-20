@@ -31,7 +31,9 @@ console.log("Understanding Logical operator in Details")
 // 
 // Some really good results - Till what point the logical operators evaluate
 console.log('Real values for truthy and falsy values for "hello" && 2+5 is',"hello" && 2+5)
-console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)
+console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)  
+// Be careful with the expression results on the console
+
 
 
 
