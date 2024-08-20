@@ -33,6 +33,7 @@ console.log("Understanding Logical operator in Details")
 console.log('Real values for truthy and falsy values for "hello" && 2+5 is',"hello" && 2+5)
 console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)  
 // Be careful with the expression results on the console
+// At console in the devTools sometimes you get undefined along with your results because REPL is evaluating the expression as well
 
 
 
