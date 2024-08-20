@@ -12,15 +12,22 @@ console.log("Understanding Logical operator in Details")
 // console.log('The logical OR with true output because one of the value is true ',(7>4) || (7<4)) 
 
 // Be careful with truthy and falsy values 
-console.log('Some special cases for the logical && and || operators \n')
-console.log('The logical && special case is 1 && 2 ', 1 && 2)
-console.log('The logical && special case is 0 && 2 ', 0 && 2) // gives out the first falsy results
-console.log('The logical || special case is 1 && 2 ', 1 || 2) // gives out the first truthy results
-console.log('The logical || special case is 0 && 2 ', 0 || 2)
-console.log('Applying boolean typecasting for && special case is boolean(1 && 2) ', Boolean(1 && 2))
-console.log('Applying boolean typecasting for && special case is boolean(0 && 2) ', Boolean(0 && 2)) // gives out the first falsy results
-console.log('Applying boolean typecasting for || special case is boolean(1 && 2) ', Boolean(1 || 2)) // gives out the first truthy results
-console.log('Applying boolean typecasting for || special case is boolean(0 && 2) ', Boolean(0 || 2))
+// console.log('Some special cases for the logical && and || operators \n')
+// console.log('The logical && special case is 1 && 2 ', 1 && 2)
+// console.log('The logical && special case is 0 && 2 ', 0 && 2) // gives out the first falsy results
+// console.log('The logical || special case is 1 && 2 ', 1 || 2) // gives out the first truthy results
+// console.log('The logical || special case is 0 && 2 ', 0 || 2)
+// console.log('Applying boolean typecasting for && special case is boolean(1 && 2) ', Boolean(1 && 2))
+// console.log('Applying boolean typecasting for && special case is boolean(0 && 2) ', Boolean(0 && 2)) // gives out the first falsy results
+// console.log('Applying boolean typecasting for || special case is boolean(1 && 2) ', Boolean(1 || 2)) // gives out the first truthy results
+// console.log('Applying boolean typecasting for || special case is boolean(0 && 2) ', Boolean(0 || 2))
+console.log('Boolean values for truthy and falsy values for NaN is', Boolean(NaN))
+console.log('Boolean values for truthy and falsy values for numbers say 2 is', Boolean(2))
+console.log('Boolean values for truthy and falsy values for null is', Boolean(null))
+console.log('Boolean values for truthy and falsy values for some string "abc"  is ', Boolean('abc'))
+console.log('Boolean values for truthy and falsy values for zero 0 is', Boolean(0))
+console.log('Boolean values for truthy and falsy values for undefined is', Boolean(undefined))
+console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
 
 
 
