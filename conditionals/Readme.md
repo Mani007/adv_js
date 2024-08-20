@@ -1,8 +1,8 @@
 # Companrision in JS - Advance concepts 
 ### Comparison operator in JS 
 - = assignment operator 
-- == equality operator
-- === STRICT object equality operator
+- == equality operator (implicit or automatic type conversion for comparison )
+- === STRICT EQUALITY object equality operator
 - != not equality operator
 - !== STRICT object not equality operator
 - ! not operator
