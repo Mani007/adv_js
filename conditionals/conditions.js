@@ -30,11 +30,12 @@ console.log("Understanding Logical operator in Details")
 // console.log('Boolean values for truthy and falsy values for empty string "" is', Boolean(''))
 // 
 // Some really good results - Till what point the logical operators evaluate
-console.log('Real values for truthy and falsy values for "hello" && 2+5 is',"hello" && 2+5)
-console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)  
+// console.log('Real values for truthy and falsy values for "hello" && 2+5 is',"hello" && 2+5)
+// console.log('Real values for truthy and falsy values for "hello" || 2+5 is',"hello" || 2+5)  
 // Be careful with the expression results on the console
 // At console in the devTools sometimes you get undefined along with your results because REPL is evaluating the expression as well
 
-
+console.log('Real values for expression values for "hello" && console.log("logging") is',"hello" && console.log("logging"))
+console.log('Real values for expression values for "hello" || console.log("logging") is',"hello" || console.log("logging"))
 
 
