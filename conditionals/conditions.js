@@ -35,7 +35,9 @@ console.log("Understanding Logical operator in Details")
 // Be careful with the expression results on the console
 // At console in the devTools sometimes you get undefined along with your results because REPL is evaluating the expression as well
 
-console.log('Real values for expression values for "hello" && console.log("logging") is',"hello" && console.log("logging"))
-console.log('Real values for expression values for "hello" || console.log("logging") is',"hello" || console.log("logging"))
+// console.log('Real values for expression values for "hello" && console.log("logging") is',"hello" && console.log("logging"))
+// console.log('Real values for expression values for "hello" || console.log("logging") is',"hello" || console.log("logging"))
+console.log('Binary and operator 3&9', 3&9)  // You will get binary tranformed values converted back to integer
+console.log('Binary or operator 3|15', 3|15)
 
 
