@@ -37,7 +37,24 @@ console.log("Understanding Logical operator in Details")
 
 // console.log('Real values for expression values for "hello" && console.log("logging") is',"hello" && console.log("logging"))
 // console.log('Real values for expression values for "hello" || console.log("logging") is',"hello" || console.log("logging"))
-console.log('Binary and operator 3&9', 3&9)  // You will get binary tranformed values converted back to integer
-console.log('Binary or operator 3|15', 3|15)
+// console.log('Binary and operator 3&9', 3&9)  // You will get binary tranformed values converted back to integer
+// console.log('Binary or operator 3|15', 3|15)
+
+// Conditional if statement execute one by one - use Debugger tools to check the flow of the program
+const userName = 'ABC'
+const userAge = prompt('Enter your AGE in number', userName)
+if (userAge >0 && userAge <15) {  // The if block of code
+    console.log('You are KID with age ', userAge)
+}
+if (userAge >15 && userAge <25) {
+    console.log('You are STUDENT with age ', userAge)
+}
+if (userAge >25 && userAge <45) {
+    console.log('You are Working PRO with age ', userAge)
+}
+if (userAge >45 && userAge <75) {
+    console.log('You are RETIRED with age ', userAge)
+}
+console.log("Programme Ended here!!!! ")
 
 
