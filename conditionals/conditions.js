@@ -41,8 +41,9 @@ console.log("Understanding Logical operator in Details")
 // console.log('Binary or operator 3|15', 3|15)
 
 // Conditional if statement execute one by one - use Debugger tools to check the flow of the program
+debugger
 const userName = 'ABC'
-const userAge = prompt('Enter your AGE in number', userName)
+const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
 if (userAge >0 && userAge <15) {  // The if block of code
     console.log('You are KID with age ', userAge)
 }
