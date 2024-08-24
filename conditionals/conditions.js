@@ -53,6 +53,8 @@ if (userAge >0 && userAge <15) {  // The if block of code
     console.log('You are Working PRO with age ', userAge)
 }else if (userAge >45 && userAge <75) {
     console.log('You are RETIRED with age ', userAge)
+} else {
+    console.log(`Invalid age ${userAge}, Please enter valid AGE between 1 to 75`)
 }
 console.log("Programme Ended here!!!! ")
 
