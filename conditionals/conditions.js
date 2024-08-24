@@ -42,19 +42,16 @@ console.log("Understanding Logical operator in Details")
 
 // Conditional if statement execute one by one - use Debugger tools to check the flow of the program
 
-debugger
+//debugger
 const userName = 'ABC'
 const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
 if (userAge >0 && userAge <15) {  // The if block of code
     console.log('You are KID with age ', userAge)
-}
-if (userAge >15 && userAge <25) {
+} else if (userAge >15 && userAge <25) {
     console.log('You are STUDENT with age ', userAge)
-}
-if (userAge >25 && userAge <45) {
+}else if (userAge >25 && userAge <45) {
     console.log('You are Working PRO with age ', userAge)
-}
-if (userAge >45 && userAge <75) {
+}else if (userAge >45 && userAge <75) {
     console.log('You are RETIRED with age ', userAge)
 }
 console.log("Programme Ended here!!!! ")
