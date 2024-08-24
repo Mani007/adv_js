@@ -86,6 +86,7 @@ console.log("Understanding Logical operator in Details")
 const userName = 'ABC'
 const userGender = prompt('Enter the GENDER of user', userName) // use type casting her as default input of prompt is string type and need to parse it to integer
 console.log(`${userGender.toLowerCase() === 'f' ? 'She':'he' } is  ${userGender.toLowerCase() === 'f' ? 'Female' : 'Male'} gender`)
+// Ternary operator is a very powerful operator, we can put entire functions in it as return value 
 
 console.log("Programme Ended here!!!! ")
 
