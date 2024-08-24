@@ -44,7 +44,7 @@ console.log("Understanding Logical operator in Details")
 
 //debugger
 const userName = 'ABC'
-const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
+const userAge = parseInt(prompt('Enter your AGE in number', userName)) || 25 // use type casting her as default input of prompt is string type and need to parse it to integer
 if (userAge >0 && userAge <15) {  // The if block of code
     console.log('You are KID with age ', userAge)
 } else if (userAge >15 && userAge <25) {
