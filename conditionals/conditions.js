@@ -43,9 +43,9 @@ console.log("Understanding Logical operator in Details")
 // Conditional if statement execute one by one - use Debugger tools to check the flow of the program
 
 //debugger
-const userName = 'ABC'
+const getDay = '7'
 //const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
-const dayNumber = parseInt(prompt('Enter DAY in number(between 1-7 )', dayNumber)) // use type casting her as default input of prompt is string type and need to parse it to integer
+const dayNumber = parseInt(prompt('Enter DAY in number(between 1-7 )', getDay)) // use type casting her as default input of prompt is string type and need to parse it to integer
 // if (!userAge) {
 //     console.log("Please add valid AGE. Don't cancel it")
 // } else {
@@ -65,18 +65,25 @@ const dayNumber = parseInt(prompt('Enter DAY in number(between 1-7 )', dayNumber
 switch (dayNumber) {
     case 1:
         console.log(`its ${dayNumber} is Monday`)
+        break
     case 2:
         console.log(`its ${dayNumber} is Tuesday`)
+        break
     case 3:
         console.log(`its ${dayNumber} is Wednesday`)
+        break
     case 4:
         console.log(`its ${dayNumber} is Thursday`)
+        break
     case 5:
         console.log(`its ${dayNumber} is Friday`)
+        break
     case 6:
         console.log(`its ${dayNumber} is Saturday`)
+        break
     case 7:
         console.log(`its ${dayNumber} is Sunday`)
+        break
     default:
         console.log('Please enter a valid day number between 1 to 7')
 }
