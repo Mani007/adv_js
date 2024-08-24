@@ -46,8 +46,8 @@ console.log("Understanding Logical operator in Details")
 //const getDay = '7'
 //const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
 //const dayNumber = parseInt(prompt('Enter DAY in number(between 1-7 )', getDay)) // use type casting her as default input of prompt is string type and need to parse it to integer
-const userName = 'ABC'
-const userAge = parseInt(prompt('Enter the Age of user', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
+// const userName = 'ABC'
+// const userAge = parseInt(prompt('Enter the Age of user', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
 // if (!userAge) {
 //     console.log("Please add valid AGE. Don't cancel it")
 // } else {
@@ -64,23 +64,28 @@ const userAge = parseInt(prompt('Enter the Age of user', userName)) // use type 
 //     }
 
 // }
-switch (true) {
-    case (userAge >0 && userAge <15):
-        console.log('You are KID with age ', userAge)
-        break
-    case (userAge >15 && userAge <25):
-        console.log('You are STUDENT with age ', userAge)
-        break
-    case (userAge >25 && userAge <45):
-        console.log('You are WORKING PRO with age ', userAge)
-        break
-    case (userAge >45 && userAge <75):
-        console.log('You are RETIREE with age ', userAge)
-        break
-    default:
-        console.log('Please enter a valid AGE between 1 to 75')
-}
-
+// Switch cases
+// false === null // This should be false because false and null are not the same thing in JS
+// switch (true) {
+//     case (userAge >0 && userAge <15):
+//         console.log('You are KID with age ', userAge)
+//         break
+//     case (userAge >15 && userAge <25):
+//         console.log('You are STUDENT with age ', userAge)
+//         break
+//     case (userAge >25 && userAge <45):
+//         console.log('You are WORKING PRO with age ', userAge)
+//         break
+//     case (userAge >45 && userAge <75):
+//         console.log('You are RETIREE with age ', userAge)
+//         break
+//     default:
+//         console.log('Please enter a valid AGE between 1 to 75')
+// }
+// Ternary operators
+const userName = 'ABC'
+const userGender = prompt('Enter the GENDER of user', userName) // use type casting her as default input of prompt is string type and need to parse it to integer
+console.log(`${userGender.toLowerCase() === 'f' ? 'She':'he' } is  ${userGender.toLowerCase() === 'f' ? 'Female' : 'Male'} gender`)
 
 console.log("Programme Ended here!!!! ")
 
