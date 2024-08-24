@@ -13,7 +13,12 @@ And note down the `IPv4 Address` (probably it will look like 192.168.xx.xx). Thi
 
         http://<IP Address> : <Port>
 
-** For an example, if your server running at **http:// 127.0.0.1:3500** on PC then port number is **3500**.   
+** For an example, if your server running at **http:// 127.0.0.1:3500** on PC then port number is **3500**.     
+
+## VS Code shortcuts
+```
+Alt+shift+f   // format with prettier
+```
 
 ### Typing convention in JS is camelCase 
 [more info for typing convention is](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/)
