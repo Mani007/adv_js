@@ -47,19 +47,22 @@ const userName = 'ABC'
 const userAge = parseInt(prompt('Enter your AGE in number', userName)) // use type casting her as default input of prompt is string type and need to parse it to integer
 if (!userAge) {
     console.log("Please add valid AGE. Don't cancel it")
+} else {
+    if (userAge >0 && userAge <15) {  // The if block of code
+        console.log('You are KID with age ', userAge)
+    } else if (userAge >15 && userAge <25) {
+        console.log('You are STUDENT with age ', userAge)
+    }else if (userAge >25 && userAge <45) {
+        console.log('You are Working PRO with age ', userAge)
+    }else if (userAge >45 && userAge <75) {
+        console.log('You are RETIRED with age ', userAge)
+    } else {
+        console.log(`Invalid age ${userAge}, Please enter valid AGE between 1 to 75`)
+    }
+
 }
 
-if (userAge >0 && userAge <15) {  // The if block of code
-    console.log('You are KID with age ', userAge)
-} else if (userAge >15 && userAge <25) {
-    console.log('You are STUDENT with age ', userAge)
-}else if (userAge >25 && userAge <45) {
-    console.log('You are Working PRO with age ', userAge)
-}else if (userAge >45 && userAge <75) {
-    console.log('You are RETIRED with age ', userAge)
-} else {
-    console.log(`Invalid age ${userAge}, Please enter valid AGE between 1 to 75`)
-}
+
 console.log("Programme Ended here!!!! ")
 
 
