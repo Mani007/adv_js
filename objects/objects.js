@@ -1,0 +1,1 @@
+console.log('objects in JS is the only non primitive datatypes ')
