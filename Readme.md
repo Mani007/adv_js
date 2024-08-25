@@ -46,4 +46,8 @@ JS has two phases of execution of code.
 2. The second phase is code execution phase     
 
 Use console log method to see the output at different parts of your program or use the devTools debugger with breakpoints to see the execution of your program. Chrome devTools debugger is the best debugger you can get. Check the scope of your variables.  Use the network tab for knowing the file execution and loading from the initiator of the files in the browser.    
-[More info about temporal dead zone and hoisting in JS](https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/)
+[More info about temporal dead zone and hoisting in JS](https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/)     
+
+## Debugger and memory allocations in JS
+JS debugger is a very powerful tool for understanding JS program. To understand objects better in JS, please check the memory snapshot of your code.    
+Primitive type has combined shared memory in JS heap, whereas non-primitive or object can have their special memory location in the heap, but inside the object they all share common memory locations for primitive types. You can check all these in memory addresses of the variable in the memory tab by searching your variable name and its address. 
