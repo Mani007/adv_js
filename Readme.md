@@ -54,4 +54,5 @@ Primitive type has combined shared memory in JS heap, whereas non-primitive or o
 some examples of memory locations in JS is @75 for all false values, @67 for all true values, @77 for all empty strings etc.     
 
 ## Objects in JS   
-The only non primitive data types is objects. Objects include arrays, objects(JSON) and other different objects. 
+The only non primitive data types is objects. Objects include arrays, objects(JSON) and other different objects.    
+It's very crucial to check the addresses of objects in the heap memory snapshot in the chrome devTools. Understand how objects are create3d and represented in the heap memory of JS engine. 
