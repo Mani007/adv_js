@@ -51,4 +51,7 @@ Use console log method to see the output at different parts of your program or u
 ## Debugger and memory allocations in JS
 JS debugger is a very powerful tool for understanding JS program. To understand objects better in JS, please check the memory snapshot of your code.    
 Primitive type has combined shared memory in JS heap, whereas non-primitive or object can have their special memory location in the heap, but inside the object they all share common memory locations for primitive types. You can check all these in memory addresses of the variable in the memory tab by searching your variable name and its address. Make sure you also include numerical values while taking the memory snapshot. Some important notes, be careful with string types variables. Also be careful with `var` types as it will overwrite memory when used.    
-some examples of memory locations in JS is @75 for all false values, @67 for all true values, @77 for all empty strings etc.
+some examples of memory locations in JS is @75 for all false values, @67 for all true values, @77 for all empty strings etc.     
+
+## Objects in JS   
+The only non primitive data types is objects. Objects include arrays, objects(JSON) and other different objects. 
