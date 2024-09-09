@@ -55,4 +55,5 @@ some examples of memory locations in JS is @75 for all false values, @67 for all
 
 ## Objects in JS   
 The only non primitive data types is objects. Objects include arrays, objects(JSON) and other different objects.       
-It's very crucial to check the addresses of objects in the heap memory snapshot in the chrome devTools. Understand how objects are create3d and represented in the heap memory of JS engine. 
+It's very crucial to check the addresses of objects in the heap memory snapshot in the chrome devTools. Understand how objects are create3d and represented in the heap memory of JS engine. There are different variations of objects in JS such as **arrays and functions.**    
+Here is the best part, whenever we create two different objects in JS with different name but exactly the same attributes, we will find that the object instance address are different but the attribute inside the object are same. !what a memory optimization in JS!. also similar object stored in same context with different memory address and the best part is if you check obj1=== obj2 the result is false. 
