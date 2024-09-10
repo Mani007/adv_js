@@ -27,6 +27,7 @@ const myObj2 = {
 console.log(myObj1.name1);
 console.log(myObj1['name1']);
 console.log(myObj2['name-2']);
+console.log(myObj2['name'+'-2']); // expression is evaluated to make key of myObj2
 console.log(myObj2.myVariable);  // This will give undefined
 console.log(myObj2['myVariable']); // This will give output as "some value". note [] brackets use
 console.log(myObj2.some);  // this will give undefined as result 
