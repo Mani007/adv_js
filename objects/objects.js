@@ -40,7 +40,7 @@ const myObj1 = {
 //  myObj2 = {} // This will now throw an error as we are trying to create a new object that is declared as constant using const 
 //  console.log(myObj2)
 Object.seal(myObj2)
-delete myObj2.isEmployee; //delete an attribute from the object
+myObj2.isEmployee = true; //delete an attribute from the object
 console.log(myObj2)
 //  myObj2.lastName = 'surname';
 //  myObj1['lastName'] = 'my surname';
