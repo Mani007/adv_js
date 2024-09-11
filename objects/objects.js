@@ -27,17 +27,22 @@ const myObj1 = {
  const myObj2 = {
     'name-2': 'abcde',
     age2: 20,
+    address: {
+        city: 'New York',
+        country: 'USA'
+    }
    
  }
- myObj2.lastName = 'surname';
- myObj1['lastName'] = 'my surname';
- console.log(myObj1.lastName);
- console.log(myObj2['lastName']);
- myObj1.isStudent = true;
- console.log(myObj1.isStudent);
- myObj2['isStudent'] = false;
- console.log(myObj2.isStudent);
- console.log(myObj2['isStudent']);
+ console.log(myObj2)
+//  myObj2.lastName = 'surname';
+//  myObj1['lastName'] = 'my surname';
+//  console.log(myObj1.lastName);
+//  console.log(myObj2['lastName']);
+//  myObj1.isStudent = true;
+//  console.log(myObj1.isStudent);
+//  myObj2['isStudent'] = false;
+//  console.log(myObj2.isStudent);
+//  console.log(myObj2['isStudent']);
 // console.log(myObj1.name1);
 // console.log(myObj1['name1']);
 // console.log(myObj2['name-2']);
