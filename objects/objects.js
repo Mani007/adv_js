@@ -30,8 +30,9 @@ const myObj1 = {
     address: {
         city: 'New York',
         country: 'USA'
-    }
-   
+    },
+    isStudent: true,
+    isEmployee: false,   
  }
  console.log(myObj2['address'])
  console.log(myObj2['address']['city'])
