@@ -37,9 +37,10 @@ const myObj1 = {
 //  console.log(myObj2['address'])
 //  console.log(myObj2['address']['city'])
 //  console.log(myObj2.address.country) 
- myObj2 = {} // This will now throw an error as we are trying to create a new object that is declared as constant using const 
- console.log(myObj2)
-
+//  myObj2 = {} // This will now throw an error as we are trying to create a new object that is declared as constant using const 
+//  console.log(myObj2)
+delete myObj2.isEmployee; //delete an attribute from the object
+console.log(myObj2)
 //  myObj2.lastName = 'surname';
 //  myObj1['lastName'] = 'my surname';
 //  console.log(myObj1.lastName);
