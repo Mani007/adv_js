@@ -33,7 +33,10 @@ const myObj1 = {
     }
    
  }
- console.log(myObj2)
+ console.log(myObj2['address'])
+ console.log(myObj2['address']['city'])
+ console.log(myObj2.address.country)
+
 //  myObj2.lastName = 'surname';
 //  myObj1['lastName'] = 'my surname';
 //  console.log(myObj1.lastName);
