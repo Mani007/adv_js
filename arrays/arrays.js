@@ -1,4 +1,7 @@
-const arr = ['a', 'b', 'c', 'd', 'e',null, undefined, 25, true, false];
+const arr = ['a', 'b', 'c', 'd', 'e',null, undefined, 25, true, false, {
+    name: 'John',
+    age: 30
+}];
 console.log(arr);
 console.log(`Type of array is ${typeof(arr)}`);
 console.log(`Access of array is ${arr[2]}`);  // output c from index 3
