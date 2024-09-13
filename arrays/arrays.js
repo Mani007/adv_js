@@ -1,6 +1,7 @@
 const arr = ['a', 'b', 'c', 'd', 'e',null, undefined, 25, true, false, {
     name: 'John',
-    age: 30
+    age: 30, 
+    age_range:[1, 25],
 }];
 console.log(arr);
 console.log(`Type of array is ${typeof(arr)}`);
