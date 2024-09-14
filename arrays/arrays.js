@@ -10,4 +10,5 @@ console.log(`Update value inside of array is ${arr[2]='X'}`);
 console.log(`Update value inside of array is ${arr[9]='XXX'}`); // adding new value at certain index 
 console.log(`Concat with built-in function of array is ${arr.concat('f')}`);
 console.log(`push with built-in function of array is ${arr.push('p')}`);
-console.log(`pop with built-in function of array is ${arr.pop()}`);
+console.log(`length and push with built-in function of array is ${arr[arr.length] = 'X'}`);
+console.log(`length and push with built-in function of array is ${arr[arr.length] = 'XY'}`);
