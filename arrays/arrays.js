@@ -75,7 +75,7 @@ const user2 = {
 const user3 = {} // for deep copy
 //const user3 = user2 // shallow copy
 //user3.age = 55
-Object.assign(user3, user2)
+Object.assign(user3, user2)  // pay attention to the order of objects in arguments
 user3.age = 55
 console.log('User3', user3)
 console.log('User2', user2)
