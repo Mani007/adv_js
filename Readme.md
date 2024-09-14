@@ -87,6 +87,8 @@ myFruits.push('j')
 myFruits.push('K')
 console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten as well
 // output fruits = ['a', 'b', 'c', 'd', 'j','K']
-```
+```    
+To do deep copy, we use SPREAD operator for both objects and arrays.     
+**CAREFUL: But the SPREAD operator does not deep copy the nested objects**
 
 
