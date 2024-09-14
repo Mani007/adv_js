@@ -19,4 +19,4 @@
  * console.log(myArray.name) // return abc
  */ 
 const multiArray = [[1,2],[3,4],[5,6],[7,8],];
-console.log(`Multidimensional array ${multiArray}`)
+console.log(`Multidimensional array ${multiArray[0][1]}`)
