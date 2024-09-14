@@ -18,5 +18,6 @@
  * myArray.name = 'abc' // store name key in array object not in the array element
  * console.log(myArray.name) // return abc
  */ 
-const multiArray = [[1,2],[3,4],[5,6],[7,8],];
-console.log(`Multidimensional array ${multiArray[0][1]}`)
+const multiArray = [['abc',2],['pqr',4],['xy',6],['vvv',8],];
+console.log(multiArray)
+console.log(`Multidimensional array ${multiArray}`)
