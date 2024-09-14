@@ -37,26 +37,30 @@
 // console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten as well
 // console.log(`fruits: ${fruits}`)
 // console.log(`myFruits: ${myFruits}`)
-const user1 = {
-    name: 'John',
-    age: 30,
-    address: {
-        street: '123 Main St',
-        city: 'New York',
-        state: 'NY',
-    },
-}
-const user2 = {
-    name: 'Jane',
-    age: 28,
-    address: {
-        street: '456 Elm St',
-        city: 'Los Angeles',
-        state: 'CA',
-    },
-}
-const user3 = user2
-user3.age = 55
-console.log('User2: ',user2)
-console.log('User3: ',user3)   // shallow copy again with objects
+// const user1 = {
+//     name: 'John',
+//     age: 30,
+//     address: {
+//         street: '123 Main St',
+//         city: 'New York',
+//         state: 'NY',
+//     },
+// }
+// const user2 = {
+//     name: 'Jane',
+//     age: 28,
+//     address: {
+//         street: '456 Elm St',
+//         city: 'Los Angeles',
+//         state: 'CA',
+//     },
+// }
+// const user3 = user2
+// user3.age = 55
+// console.log('User2: ',user2)
+// console.log('User3: ',user3)   // shallow copy again with objects
+
+const userName = 'abc'
+const user2 = userName // shallow copy and both variable point to same variable in the memory
+const user3 = userName + ' xyz'  // Now new variable is created called user3
 
