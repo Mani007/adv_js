@@ -60,7 +60,22 @@
 // console.log('User2: ',user2)
 // console.log('User3: ',user3)   // shallow copy again with objects
 
-const userName = 'abc'
-const user2 = userName // shallow copy and both variable point to same variable in the memory
-const user3 = userName + ' xyz'  // Now new variable is created called user3
-
+// const userName = 'abc'
+// const user2 = userName // shallow copy and both variable point to same variable in the memory
+// const user3 = userName + ' xyz'  // Now new variable is created called user3
+const user2 = {
+        name: 'Jane',
+        age: 28,
+        address: {
+            street: '456 Elm St',
+            city: 'Los Angeles',
+            state: 'CA',
+        },
+    }
+const user3 = {} // for deep copy
+//const user3 = user2 // shallow copy
+//user3.age = 55
+Object.assign(user3, user2)
+user3.age = 55
+console.log('User3', user3)
+console.log('User2', user2)
