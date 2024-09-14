@@ -65,13 +65,17 @@ Arrays are special type of objects(non primitive data type) in JavaScript. It is
 #### Basic array methods are that are commonly used
 - push
 - pop
-- shift 
-- unshift
-- indexOf
-- concat
-- includes
-- reverse
-- sort
-- slice
-- splice
+- shift - opposite of pop function as it starts from the beginning of the array
+- unshift - opposite of push function as it adds element at the start of the array
+- indexOf - It is like a search for getting the index of the element, if present, return -1 if the element is not found
+- concat - it can concat any two objects 
+- includes - it will tell us if the element is present in the array in true or false
+- reverse - reverse all the elements of array
+- sort - arrange elements in the order alphabetically, even with numbers, and case sensitive sorting. It primarily sort in utf-16 format. We can also pass our own sort function to define sorting order. 
+- slice - cuts the array into slices generally using indexes. Original array will remain the same and new slice array is been generated. 
+- splice - same as slice but changes the original array. SO it can also be used to replace elements of an array at a certain index.      
+
+#### Multi-dimensional arrays or nested arrays
+Example: [[1,2,3],[4,5,6]]    
+
 
