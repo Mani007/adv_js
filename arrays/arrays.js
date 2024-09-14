@@ -87,7 +87,8 @@
 // SPREAD Operators for ARRAY //
 const fruits = ['a', 'b', 'c', 'd'];
 const myFruits = [...fruits]  // Example of deep copy
-myFruits.push('j')
-myFruits.push('K')
+const myFruits1 = [].concat(fruits)  // Another Example of deep copy
+myFruits1.push('j')
+myFruits1.push('K')
 console.log(fruits) // The value of ORIGINAL fruits array is NOT getting overwritten 
-console.log(myFruits) // The value of ORIGINAL fruits array is NOT getting overwritten 
+console.log(myFruits1) // The value of ORIGINAL fruits array is NOT getting overwritten 
