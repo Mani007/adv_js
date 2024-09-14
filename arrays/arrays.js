@@ -63,15 +63,15 @@
 // const userName = 'abc'
 // const user2 = userName // shallow copy and both variable point to same variable in the memory
 // const user3 = userName + ' xyz'  // Now new variable is created called user3
-const user2 = {
-        name: 'Jane',
-        age: 28,
-        address: {
-            street: '456 Elm St',
-            city: 'Los Angeles',
-            state: 'CA',
-        },
-    }
+// const user2 = {
+//         name: 'Jane',
+//         age: 28,
+//         address: {
+//             street: '456 Elm St',
+//             city: 'Los Angeles',
+//             state: 'CA',
+//         },
+//     }
 // const user3 = {} // for deep copy
 // //const user3 = user2 // shallow copy
 // //user3.age = 55
@@ -80,7 +80,14 @@ const user2 = {
 // console.log('User3', user3)
 // console.log('User2', user2)
 // LATEST SYNTAX in ES6 
-const user3 = {...user2} // for deep copy
-user3.age = 55
-console.log('User3', user3)
-console.log('User2', user2)
+// const user3 = {...user2} // for deep copy
+// user3.age = 55
+// console.log('User3', user3)
+// console.log('User2', user2)
+// SPREAD Operators for ARRAY //
+const fruits = ['a', 'b', 'c', 'd'];
+const myFruits = [...fruits]  // Example of deep copy
+myFruits.push('j')
+myFruits.push('K')
+console.log(fruits) // The value of ORIGINAL fruits array is NOT getting overwritten 
+console.log(myFruits) // The value of ORIGINAL fruits array is NOT getting overwritten 
