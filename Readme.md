@@ -76,6 +76,17 @@ Arrays are special type of objects(non primitive data type) in JavaScript. It is
 - splice - same as slice but changes the original array. SO it can also be used to replace elements of an array at a certain index.      
 
 #### Multi-dimensional arrays or nested arrays
-Example: [[1,2,3],[4,5,6]]    
+Example: [[1,2,3],[4,5,6]]      
+
+#### Deep copy and shallow copy in JS   
+In all the objects default behavior of copy is shallow copying. Check the code example for more info    
+```javascript
+const fruits = ['a', 'b', 'c', 'd'];
+const myFruits = fruits  // Example of shallow copy
+myFruits.push('j')
+myFruits.push('K')
+console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten as well
+// output fruits = ['a', 'b', 'c', 'd', 'j','K']
+```
 
 

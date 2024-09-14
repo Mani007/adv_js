@@ -18,15 +18,22 @@
  * myArray.name = 'abc' // store name key in array object not in the array element
  * console.log(myArray.name) // return abc
  */ 
-const multiArray = [['abc',2],['pqr',4],['xy',6],['vvv',8],];
-console.log(multiArray)
-console.log(`Multidimensional array ${multiArray}`)
-//multiArray[5][0] = 'kkk'  // Adding element in multi dimension array is very critical
-console.log(multiArray)
-console.log(`Multidimensional array adding element  ${multiArray[9] = ['kkk',12]} `) 
-const tictactoeState = [
-    ['X', null,null],
-    [null, 'O', null],
-    [null, null, 'X']  // This is 2D array
-]
-console.log(tictactoeState)
+// const multiArray = [['abc',2],['pqr',4],['xy',6],['vvv',8],];
+// console.log(multiArray)
+// console.log(`Multidimensional array ${multiArray}`)
+// //multiArray[5][0] = 'kkk'  // Adding element in multi dimension array is very critical
+// console.log(multiArray)
+// console.log(`Multidimensional array adding element  ${multiArray[9] = ['kkk',12]} `) 
+// const tictactoeState = [
+//     ['X', null,null],
+//     [null, 'O', null],
+//     [null, null, 'X']  // This is 2D array
+// ]
+// console.log(tictactoeState)
+const fruits = ['a', 'b', 'c', 'd'];
+const myFruits = fruits  // Example of shallow copy
+myFruits.push('j')
+myFruits.push('K')
+console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten as well
+// console.log(`fruits: ${fruits}`)
+// console.log(`myFruits: ${myFruits}`)
