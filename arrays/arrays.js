@@ -12,3 +12,9 @@ console.log(`Concat with built-in function of array is ${arr.concat('f')}`);
 console.log(`push with built-in function of array is ${arr.push('k','l','m')}`);
 console.log(`length and push with built-in function of array is ${arr[arr.length] = 'X'}`);
 console.log(`length and push with built-in function of array is ${arr[arr.length] = 'XY'}`);
+// Because array is an object, we can store key value pair in array without creating object
+/**
+ * const myArray =[1,2]
+ * myArray.name = 'abc' // store name key in array object not in the array element
+ * console.log(myArray.name) // return abc
+ */
