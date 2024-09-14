@@ -61,5 +61,17 @@ In nested objects, its the new address of the nested object is stored in the mai
 Objects are always compared based on their addresses rather than their internal values. Hence although the objects are created using **const** variables yet we can change the values inside it because every time a new object is not getting created. Please note that in JS primitive variables are always hold values by its memory address in the heap, so if you change any primitive data type, the values address will be updated from the memory to new value's address. But in case of objects the new address is not changed for entire objects, rather just value in side the object is updated for its new address.      
 
 ## Arrays in JavaScript
-Arrays are special type of objects(non primitive data type) in JavaScript. It is used to store values in a ordered and index list with similar or different types of elements. 
+Arrays are special type of objects(non primitive data type) in JavaScript. It is used to store values in a ordered and index list with similar or different types of elements.     
+#### Basic array methods are that are commonly used
+- push
+- pop
+- shift 
+- unshift
+- indexOf
+- concat
+- includes
+- reverse
+- sort
+- slice
+- splice
 
