@@ -23,4 +23,4 @@ console.log(multiArray)
 console.log(`Multidimensional array ${multiArray}`)
 //multiArray[5][0] = 'kkk'  // Adding element in multi dimension array is very critical
 console.log(multiArray)
-console.log(`Multidimensional array adding element  ${multiArray[5] = ['kkk',12]} `)
+console.log(`Multidimensional array adding element  ${multiArray[9] = ['kkk',12]} `)
