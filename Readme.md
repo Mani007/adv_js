@@ -89,6 +89,7 @@ console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten
 // output fruits = ['a', 'b', 'c', 'd', 'j','K']
 ```    
 To do deep copy, we use SPREAD operator for both objects and arrays.     
-**CAREFUL: But the SPREAD operator does not deep copy the nested objects** *Because of this ISSUE we need state management such as redux or zustand in REACT to manage variable states*
+**CAREFUL: But the SPREAD operator does not deep copy the nested objects** *Because of this ISSUE we need state management such as redux or zustand in REACT to manage variable states* 
+**We can also use JSON.stringify to perform deep copy**
 
 
