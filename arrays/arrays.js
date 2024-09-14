@@ -19,6 +19,9 @@
  * console.log(myArray.name) // return abc
  */ 
 const multiArray = [['abc',2],['pqr',4],['xy',6],['vvv',8],];
+multiArray[5][0] = 'kkk'
 console.log(multiArray)
 console.log(`Multidimensional array ${multiArray}`)
-console.log(`Multidimensional array adding element  ${multiArray[2][0][1] = 'kkk'} `)
+
+console.log(multiArray)
+console.log(`Multidimensional array adding element  ${multiArray[5][0] = 'kkk'} `)
