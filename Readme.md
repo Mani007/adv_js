@@ -90,6 +90,17 @@ console.log(fruits) // The value of ORIGINAL fruits array is getting overwritten
 ```    
 To do deep copy, we use SPREAD operator for both objects and arrays.     
 **CAREFUL: But the SPREAD operator does not deep copy the nested objects** *Because of this ISSUE we need state management such as redux or zustand in REACT to manage variable states* 
-**We can also use JSON.stringify to perform deep copy**
+**We can also use JSON.stringify to perform deep copy**  
+
+### Combined assignment operator 
+Combined assignment operator are 
+- += assignment  **num= num + 5 or num += 5**
+- -= assignment  **num= num - 5 or num -= 5**
+- %= assignment  **num= num % 5 or num %= 5**
+- *= assignment  **num= num * 5 or num *= 5**
+- /= assignment  **num= num / 5 or num /= 5**
+- ** assignment   num= num**5  or num **= 5
+- ++ assignment Increment operator   **++num or num = num + 1 AND num++ or num+=1**
+- -- assignment Decrement operator   **--num or num = num - 1 AND num-- or num-=1**
 
 
