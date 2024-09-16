@@ -1,7 +1,8 @@
 console.log('Functions in JS')
 function intro(names){
-    
-    return 'Namaste!!! ' + names
+    console.log('Namaste!!! ' + names)
 }
-let namaste = intro('bob');
-console.log(namaste);
+console.log('****************************************************************')
+intro('bob');
+console.log('****************************************************************')
+intro('the builder');
