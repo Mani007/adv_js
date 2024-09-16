@@ -3,4 +3,5 @@ function intro(){
     console.log('Namaste!!!')
     return 25
 }
-intro();
+let namaste = intro();
+console.log(namaste);
