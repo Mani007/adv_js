@@ -5,3 +5,6 @@ function intro(){
 }
 let namaste = intro();
 console.log(namaste);
+console.log('********************************')
+intro();
+console.log('********************************')
