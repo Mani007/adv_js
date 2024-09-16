@@ -114,7 +114,12 @@ Combined assignment operator are
 Three main types of loops in JavaScript.    
 - for loop
 - while loop
-- do ...while loop
+- do ...while loop   
+Check the coding example for more details.
+
+## Functions in JavaScript
+Most useful concepts in JavaScript are functions. It is also very deep and interesting.    
+ 
 
 
 
