@@ -1,10 +1,7 @@
 console.log('Functions in JS')
-function intro(){
-    console.log('Namaste!!!')
-    return 25
+function intro(names){
+    
+    return 'Namaste!!! ' + names
 }
-let namaste = intro();
+let namaste = intro('bob');
 console.log(namaste);
-console.log('********************************')
-intro();
-console.log('********************************')
