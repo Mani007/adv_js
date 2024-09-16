@@ -6,6 +6,7 @@ console.log('Program Started......')
 //     console.log('Name is: ', name[num])
 //     num++;
 // }
+debugger
 for (let i = 0; i < 10; i++) {
     console.log(`Value of i is ${i}`)
 }
