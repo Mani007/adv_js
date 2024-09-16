@@ -102,7 +102,12 @@ Combined assignment operator are
 - ** assignment   num= num**5  or num **= 5
 - ++ assignment Increment operator   **++num or num = num + 1 AND num++ or num+=1**    
  num++ means Expression result first then change the value of num     
- ++num means both expression and result are store in num at the same time. 
+ ++num means both expression and result are store in num at the same time.   
+ ```javascript
+ const num = 5;
+ const newNum = num++; // num = 6 but newNum=5
+ const newNum = ++num; // num = 6 and newNum=6
+ ```
 - -- assignment Decrement operator   **--num or num = num - 1 AND num-- or num-=1**
 
 
