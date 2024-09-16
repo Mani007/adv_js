@@ -100,7 +100,8 @@ Combined assignment operator are
 - *= assignment  **num= num * 5 or num *= 5**
 - /= assignment  **num= num / 5 or num /= 5**
 - ** assignment   num= num**5  or num **= 5
-- ++ assignment Increment operator   **++num or num = num + 1 AND num++ or num+=1**
+- ++ assignment Increment operator   **++num or num = num + 1 AND num++ or num+=1**    
+ num++ means Expression result first then change the value of num
 - -- assignment Decrement operator   **--num or num = num - 1 AND num-- or num-=1**
 
 
