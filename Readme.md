@@ -104,7 +104,7 @@ Combined assignment operator are
  num++ means Expression result first then change the value of num     
  ++num means both expression and result are store in num at the same time.   
  ```javascript
- const num = 5;
+ let num = 5;
  const newNum = num++; // num = 6 but newNum=5
  const newNum = ++num; // num = 6 and newNum=6
  ```
