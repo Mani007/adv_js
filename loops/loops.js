@@ -17,9 +17,10 @@ console.log('Program Started......')
     // }
 //     console.log(`the name index is ${i} with value ${names[i]}`)
 // }
-let i = 10 
+let i = 0 
 do {
- console.log('Do while loop run at least one time irrespective of condition of loops')
+ console.log(`the name index is ${i} `)
+ i++
 } while (i < 5)
 console.log('Program Finished')
 // while (true) { // infinite loop
