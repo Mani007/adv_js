@@ -1,8 +1,9 @@
 console.log('Program Started......')
-debugger
-let num = 0;
-while (num < 10) {
+let num=0;
+let name = ['a', 'b', 'c', 'd', 'e', 'f'];
+while (num < name.length) {
     console.log('Number is: ', num)
+    console.log('Name is: ', name[num])
     num++;
 }
 console.log('Program Finished')
