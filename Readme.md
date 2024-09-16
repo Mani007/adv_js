@@ -108,6 +108,13 @@ Combined assignment operator are
  const newNum = num++; // num = 6 but newNum=5
  const newNum = ++num; // num = 6 and newNum=6
  ```
-- -- assignment Decrement operator   **--num or num = num - 1 AND num-- or num-=1**
+- -- assignment Decrement operator   **--num or num = num - 1 AND num-- or num-=1**    
+
+## Loops in JS 
+Three main types of loops in JavaScript.    
+- for loop
+- while loop
+- do ...while loop
+
 
 
