@@ -118,8 +118,9 @@ Three main types of loops in JavaScript.
 Check the coding example for more details.
 
 ## Functions in JavaScript
-Most useful concepts in JavaScript are functions. It is also very deep and interesting. Function primarily consists of function declaration, function definitions, function calling, function parameter in declaration, function calling with arguments and function return values. Check the code examples of function to know the deeper insights.    
-
+Most useful concepts in JavaScript are functions. It is also very deep and interesting. Function primarily consists of function declaration, function definitions, function calling, function parameter in declaration, function calling with arguments and function return values. Check the code examples of function to know the deeper insights.     
+    
+The best part is function can take anything as an argument variables, objects or even another functions. Similarly function can return anything as return value such as variable, objects or another function(often referred as closure functions). 
 
 
 
