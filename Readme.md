@@ -120,7 +120,18 @@ Check the coding example for more details.
 ## Functions in JavaScript
 Most useful concepts in JavaScript are functions. It is also very deep and interesting. Function primarily consists of function declaration, function definitions, function calling, function parameter in declaration, function calling with arguments and function return values. Check the code examples of function to know the deeper insights.     
 
-The best part is function can take anything as an argument variables, objects, expression or even another functions. Similarly function can return anything as return value such as variable, objects, expression or another function(often referred as closure functions). 
+The best part is function can take anything as an argument variables, objects, expression or even another functions. Similarly function can return anything as return value such as variable, objects, expression or another function(often referred as closure functions).      
+### Execution Context of a function   
+Understanding execution context for a function is extremely important for understanding the scope and call-stack of variables.      
+Entire JS engine will have three level of scope   
+- global or window scope and its execution context
+- script scope
+- local scope   
+
+Each of this scope will have their own independent execution context namely memory execution context and code execution context. All the context are nested inside from global to local scope.    
+
+
+
 
 
 
