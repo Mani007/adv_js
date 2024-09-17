@@ -14,7 +14,7 @@ let intro2 = intro('the builder', 35);  // return will be now available in varia
 console.log('****************************************************************')
 console.log(intro1 , intro2) // return will be output
 console.log('****************************************************************')
-let a = addition(2,5)
-let b = addition(3,6)
-let add1 = addition(a,b) // output will be 14
+//let a = addition(2,5)
+//let b = addition(3,6)
+let add1 = addition(addition(2,10),addition(2,5)) // output will be 14
 console.log(add1)
