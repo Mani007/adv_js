@@ -4,8 +4,8 @@ function intro(names = 'blank', age = 18){  // parameter we define in the functi
     
 }
 console.log('****************************************************************')
-intro('bob', 25); // argument we pass to the function
+let intro1 = intro('bob', 25); // return will be undefined
 console.log('****************************************************************')
-intro('the builder', 35);
+let intro2 = intro('the builder', 35);  // return will be undefined
 console.log('****************************************************************')
-intro();
+console.log(intro1 , intro2) // return will be undefined
