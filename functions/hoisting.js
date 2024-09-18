@@ -4,6 +4,6 @@ console.log('Hoisting Program starts here......')
 console.log(yourDJ)
 console.log(someuser) // this will not through any error rather return undefined
 var someuser = 'abc' // var create variable at the global scope
-let yourDJ = function dj(){
+var yourDJ = function dj(){
     console.log('haalo')
 }
