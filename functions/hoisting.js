@@ -1,4 +1,4 @@
 console.log('Hoisting Program starts here......')
 // hoisting problem with var 
 console.log(someuser) // this will not through any error rather return undefined
-var someuser = 'abc'
+let someuser = 'abc'
