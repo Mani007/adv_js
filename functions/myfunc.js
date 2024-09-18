@@ -1,4 +1,5 @@
 console.log('Functions in JS')
+debugger
 function intro(names = 'blank', age = 18){  // parameter we define in the function
     //console.log('Namaste!!! ' + names + ' ' + age) // Console output is not equivelent to result of a function. 
     return 'Namaste!!! ' + names + ' ' + age
