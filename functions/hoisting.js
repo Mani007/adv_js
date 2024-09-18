@@ -7,7 +7,7 @@ var someuser = 'abc' // var create variable at the global scope
 var yourDJ = function dj(){  // This is called function expression in function defination
     console.log('haalo')
 }
-console.log(yourDJ)  // hoiting problems with function is resolved
+console.log(yourDJ())  // hoisting problems with function is resolved returning entire function
 function myfun(){ // This is called function declaration in function defination
     console.log('program ends here.....')
 }
