@@ -1,6 +1,8 @@
 console.log('Functions in JS')
-let above = intro('yoyo', 25)
+let above = intro('yoyo', 25)  // This will work because of its execution context is during memory creation phase globally
 console.log(above)
+let aboveaddition = addition(3,4)
+console.log(aboveaddition)
 function intro(names = 'blank', age = 18){  // parameter we define in the function
     //console.log('Namaste!!! ' + names + ' ' + age) // Console output is not equivelent to result of a function. 
     return 'Namaste!!! ' + names + ' ' + age
