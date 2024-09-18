@@ -134,7 +134,7 @@ Every function will create its own execution context, with its own local variabl
 #### Call Stack
 It is a stack that holds record of function calls. Once the function is completed its record is deleted from the call stack.     
 #### Hoisting in JS
-Whenever we try to access the variable before its declaration using var keyword, result will be undefined and this phenomenon is called hoisting in JS. The variable in this time goes to temporal dead zone, hence remain undefined although var makes the variable with global scope. The easy solution to hoisting problem is to declare variable using let or const keyword. functions generally don't cause hoisting. 
+Whenever we try to access the variable before its declaration using var keyword, result will be undefined and this phenomenon is called hoisting in JS. The variable in this time goes to temporal dead zone, hence remain undefined although var makes the variable with global scope. The easy solution to hoisting problem is to declare variable using let or const keyword. functions generally don't cause hoisting. Classes don't cause hoisting.
 
 
 
