@@ -126,7 +126,7 @@ Understanding execution context for a function is extremely important for unders
 Entire JS engine will have three level of scope   
 - global or window scope and its execution context
 - script scope : ``` let``` and ``` const``` create script scope and ``` var``` create memory in global window scope, hence not recommended for use
-- local scope   
+- local scope - local execution contest is created with same as function name at the time of function definition, its variable etc. and can be accessed using ```this``` keyword if needed. 
 
 Each of this scope will have their own independent execution context namely memory creation context and code execution context. All the context are nested inside from global to local scope.     
 
