@@ -1,5 +1,4 @@
 console.log('Functions in JS')
-debugger    // helps to control code execution phase not on memory creation phase
 let above = intro('yoyo', 25)  // This will work because of its execution context is during memory creation phase globally
 console.log(above)
 let aboveaddition = addition(3,4)
@@ -10,6 +9,8 @@ function intro(names = 'blank', age = 18){  // parameter we define in the functi
 }
 
 function addition(a,b){
+    let above = intro('yoyo inside', 25)  
+    console.log(above)
     return a + b
 }
 console.log('****************************************************************')
