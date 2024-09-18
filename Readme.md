@@ -130,7 +130,9 @@ Entire JS engine will have three level of scope
 
 Each of this scope will have their own independent execution context namely memory creation context and code execution context. All the context are nested inside from global to local scope.     
 
-Every function will create its own execution context, with its own local variables and operations. These functions are pushed in the call stack-LIFO based on their calling.  
+Every function will create its own execution context, with its own local variables and operations. These functions are pushed in the call stack-LIFO based on their calling.     
+#### Call Stack
+It is a stack that holds record of function calls. Once the function is completed its record is deleted from the call stack. 
 
 
 
