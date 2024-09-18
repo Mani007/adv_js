@@ -125,7 +125,7 @@ The best part is function can take anything as an argument variables, objects, e
 Understanding execution context for a function is extremely important for understanding the scope and call-stack of variables.      
 Entire JS engine will have three level of scope   
 - global or window scope and its execution context
-- script scope
+- script scope : ``` let``` and ``` const``` create script scope
 - local scope   
 
 Each of this scope will have their own independent execution context namely memory creation context and code execution context. All the context are nested inside from global to local scope.     
